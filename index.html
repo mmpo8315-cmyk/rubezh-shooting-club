@@ -106,7 +106,6 @@
     <header>
         <h1>Добро пожаловать в тир Rubezh!</h1>
     </header>
-
     <main>
         <!-- Блок с ценами -->
         <section id="pricing">
@@ -128,8 +127,7 @@
                     <div class="price">2 000 ₽ / час</div>
                 </div>
             </div>
-        </section>
-
+        </section
         <!-- Расписание работы -->
         <section id="schedule">
             <h2>Расписание работы</h2>
@@ -139,49 +137,48 @@
                 <li><strong>Перерыв:</strong> 14:00–15:00 (ежедневно)</li>
             </ul>
         </section>
-
         <!-- Форма заявки -->
         <section id="booking">
             <h2>Записаться на тренировку</h2>
             <p>Заполните форму — наш менеджер свяжется с вами для подтверждения и отправки платёжной ссылки.</p>
-            <form action="mailto:info@rubezh-shooting.ru?subject=Заявка с сайта" method="post">
+            <form action="https://formspree.io/f/mgakkwrb" method="POST">
                 <label for="name">Ваше имя:</label>
                 <input type="text" id="name" name="name" placeholder="Иван Иванов" required>
-
                 <label for="phone">Телефон:</label>
                 <input type="tel" id="phone" name="phone" placeholder="+7 (999) 000-00-00" required>
-
                 <label for="message">Комментарий (желаемое время, тип услуги):</label>
-                <textarea id="message" name="message" rows="4" placeholder="Например: 2 часа, аренда пистолета, тренировка с инструктором"></textarea>
-
-                <button type="submit">Отправить заявку</button>
-            </form>
-        </section>
-
-        <!-- Способы оплаты -->
-     <p>Оплата производится онлайн по ссылке, которую пришлёт менеджер после подтверждения заявки.</p>
-        <section id="payment">
-            <h2>Способы оплаты</h2> 
-            <div class="payment-methods">
-                <div class="payment-item">
-                    <strong>Банковская карта</strong><br>
-                    Visa, Mastercard, МИР
-                </div>
-                <div class="payment-item">
-                    <strong>СБП</strong><br>
-                    Оплата по QR‑коду или ссылке
-                </div>            
-                <p>Оплата производится онлайн по ссылке, которую пришлёт менеджер после подтверждения заявки.</p>
-            </div>
-            <p style="margin-top: 1rem; text-align: center;">
-                <a href="#" style="color: #2c3e50; font-weight: bold;">→ Перейти к оплате (после согласования)</a>
-            </p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 Тир Rubezh. Все права защищены.</p>
-        <p>Адрес: г. Волгоград, ул. Баррикадная, 1К / 1Б </p>
-    </footer>
+        <textarea id="message" name="message" rows="4" placeholder="Например: 2 часа, аренда пистолета, тренировка с инструктором"></textarea>
+         <button type="submit">Отправить заявку</button>
+         </form>
+            
+      <!-- Кнопка Telegram под формой -->
+      <a href="https://t.me/Tirruvlg" target="_blank" style="display: inline-block; margin-top: 20px; padding: 14px 28px; background-color: #2481cc; color: white; text-decoration: none; border-radius: 6px; font-weight: bold;">
+        Написать сразу в Telegram
+      </a>
+    </section>
+    <!-- Способы оплаты -->
+    <section id="payment">
+      <h2>Способы оплаты</h2>
+      <div class="payment-methods">
+        <div class="payment-item">
+          <strong>Банковская карта</strong><br>
+          Visa, Mastercard, МИР
+        </div>
+        <div class="payment-item">
+          <strong>СБП</strong><br>
+          Оплата по QR-коду или ссылке
+        </div>
+      </div>
+      <p>Оплата производится онлайн по ссылке, которую пришлёт менеджер после подтверждения заявки.</p>
+      <p style="margin-top: 1rem; text-align: center;">
+        <a href="https://t.me/Tirruvlg" target="_blank" style="color: #2c3e50; font-weight: bold;">→ Перейти к оплате (после согласования)</a>
+      </p>
+    </section>
+</main>
+<footer>
+  <p>&copy; 2026 Тир Rubezh. Все права защищены.</p>
+  <p>Адрес: г. Волгоград, ул. Баррикадная, 1К / 1Б</p>
+</footer>
 </body>
+</html>
 </html>
